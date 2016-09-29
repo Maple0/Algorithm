@@ -10,6 +10,9 @@ def is_palindrome1(num):
 		remainder=temp%10
 		reverse=reverse*10+remainder
 		temp=int(temp/10)
+		print("remainder",remainder)
+		print("reverse",reverse)
+		print("temp",temp)
 	return reverse==num
 
 #better performance

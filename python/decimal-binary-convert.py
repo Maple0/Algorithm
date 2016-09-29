@@ -44,7 +44,7 @@ def binary_to_decimal(num):
 
 decimal=55
 binary=110111
-decimal_to_binary1(decimal)
+#decimal_to_binary1(decimal)
 decimal_to_binary2(decimal)
 binary_to_decimal(binary)
 
