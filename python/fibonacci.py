@@ -12,5 +12,5 @@ def generate_fibonacci(n):
 		i+=1
 	return fibonacci
 
-fibonacci_numbers=generate_fibonacci(100)
+fibonacci_numbers=generate_fibonacci(4)
 print(fibonacci_numbers)
