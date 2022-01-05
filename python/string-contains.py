@@ -12,7 +12,7 @@ def contains_solution1(string_a,string_b):
 	for b in string_b:
 		isContained = False
 		for a in string_a:
-			if b != a:
+			if b == a:
 				isContained=True
 				break
 		if isContained==False:

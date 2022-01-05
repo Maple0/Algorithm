@@ -9,7 +9,7 @@ def sum_search(arr,sum):
 	num_pairs={}
 	length=len(arr)
 	if len(arr)>1:
-		for i in range(0,length/2):
+		for i in range(0,int(length/2)):
 			rem=sum-arr[i]
 			for j in range(i+1,length):
 				if arr[j]==rem and num_pairs.has_key(rem)==False:
