@@ -15,8 +15,8 @@ class Solution:
         return 0
 
 
-nums=[1,2,3,5,6,7,9]
-target=7
+nums=[1,2,3,5,6,7,9,18,29,40,12]
+target=29
 
 print(Solution().findnumber(nums,target))
 
